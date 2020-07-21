@@ -1,4 +1,4 @@
-const CalculateFee = require("../Strategy/icalculateFee")
+const CalculateFee = require("../strategy/icalculateFee")
 module.exports = class FreightService {
   constructor(companyName, calculateFee = new CalculateFee()) {
     this._companyName = companyName

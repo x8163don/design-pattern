@@ -1,7 +1,7 @@
-const FreightService = require("./Context/freightService")
-const VolumeFee = require("./Strategy/volumeFee")
-const WeightFee = require("./Strategy/weightFee")
-const Goods = require("./Context/goods")
+const FreightService = require("./context/freightService")
+const VolumeFee = require("./strategy/volumeFee")
+const WeightFee = require("./strategy/weightFee")
+const Goods = require("./context/goods")
 
 const manyGoods = [
   new Goods({ width: 100, height: 100, depth: 10, weight: 30 }),
